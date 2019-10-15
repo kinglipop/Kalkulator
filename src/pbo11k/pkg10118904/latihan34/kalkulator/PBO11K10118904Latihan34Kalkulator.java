@@ -23,19 +23,19 @@ public class PBO11K10118904Latihan34Kalkulator {
         Scanner input = new Scanner(System.in);
         Kalkulator k = new Kalkulator();
         double bil1,bil2;
-        System.out.println("=====Aplikasi Kalkulator Bilangan=====");
-        System.out.print("Masukan Angka ke-1 : ");
+        System.out.println("====== Aplikasi kalkulator bilangan ======");
+        System.out.print("Masukan angka ke-1 : ");
         bil1 = input.nextDouble();
         k.value1 = bil1;
-        System.out.print("Masukan Angka ke-2 : ");
+        System.out.print("Masukan angka ke-2 : ");
         bil2 = input.nextDouble();
         k.value2 = bil2;
         System.out.println("");
-        System.out.println("Hasil Pertambahan : "+k.tambahBilangan());
-        System.out.println("Hasil Pengurangan : "+k.kurangBilangan());
-        System.out.println("Hasil Perkalian : "+k.kaliBilangan());
-        System.out.println("Hasil Pembagian : "+k.bagiBilangan());
-        System.out.println("Hasil Sisa : "+k.sisaBilangan());
+        System.out.println("Hasil pertambahan : "+k.tambahBilangan());
+        System.out.println("Hasil pengurangan : "+k.kurangBilangan());
+        System.out.println("Hasil perkalian : "+k.kaliBilangan());
+        System.out.println("Hasil pembagian : "+k.bagiBilangan());
+        System.out.println("Hasil sisa : "+k.sisaBilangan());
     }
     
 }
